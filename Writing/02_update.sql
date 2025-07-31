@@ -1,0 +1,1 @@
+UPDATE users SET age = 19, init_date = '2023-10-10' WHERE id_user = 4
