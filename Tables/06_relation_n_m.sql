@@ -5,7 +5,7 @@ CREATE TABLE lenguages(
 
 
 CREATE TABLE users_lenguage(
-    users_lenguage_id in AUTO_INCREMENT PRIMARY KEY,
+    users_lenguage_id int AUTO_INCREMENT PRIMARY KEY,
     user_id int,
     language_id int,
     FOREIGN KEY(user_id) REFERENCES users(user_id),
